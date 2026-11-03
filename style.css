@@ -8,13 +8,15 @@
       "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-rose-100: oklch(94.1% 0.03 12.58);
+    --spacing: 0.25rem;
     --text-5xl: 3rem;
     --text-5xl--line-height: 1;
     --font-weight-bold: 700;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
     --color-background: navy;
-    --color-text: #dddddd;
+    --color-text: black;
   }
 }
 @layer base {
@@ -166,14 +168,41 @@
   }
 }
 @layer utilities {
+  .relative {
+    position: relative;
+  }
   .m-\[5vw\] {
     margin: 5vw;
+  }
+  .mx-5 {
+    margin-inline: calc(var(--spacing) * 5);
   }
   .my-\[6vw\] {
     margin-block: 6vw;
   }
-  .bg-background {
-    background-color: var(--color-background);
+  .grid {
+    display: grid;
+  }
+  .bg-rose-100 {
+    background-color: var(--color-rose-100);
+  }
+  .px-5 {
+    padding-inline: calc(var(--spacing) * 5);
+  }
+  .py-5 {
+    padding-block: calc(var(--spacing) * 5);
+  }
+  .pt-5 {
+    padding-top: calc(var(--spacing) * 5);
+  }
+  .pt-10 {
+    padding-top: calc(var(--spacing) * 10);
+  }
+  .font-\[Open_Sans\] {
+    font-family: Open Sans;
+  }
+  .font-\[apple-system\] {
+    font-family: apple-system;
   }
   .text-5xl {
     font-size: var(--text-5xl);

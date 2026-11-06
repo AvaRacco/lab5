@@ -178,9 +178,6 @@
   }
 }
 @layer utilities {
-  .relative {
-    position: relative;
-  }
   .container {
     width: 100%;
     @media (width >= 40rem) {
@@ -199,17 +196,8 @@
       max-width: 96rem;
     }
   }
-  .m-\[5vw\] {
-    margin: 5vw;
-  }
-  .mx-\[6vw\] {
-    margin-inline: 6vw;
-  }
   .mx-\[8vw\] {
     margin-inline: 8vw;
-  }
-  .mx-\[10vw\] {
-    margin-inline: 10vw;
   }
   .my-\[6vw\] {
     margin-block: 6vw;
@@ -220,32 +208,8 @@
   .flex {
     display: flex;
   }
-  .grid {
-    display: grid;
-  }
   .w-full {
     width: 100%;
-  }
-  .max-w-\[45\%\] {
-    max-width: 45%;
-  }
-  .max-w-\[60\%\] {
-    max-width: 60%;
-  }
-  .max-w-\[70\%\] {
-    max-width: 70%;
-  }
-  .max-w-\[80\%\] {
-    max-width: 80%;
-  }
-  .max-w-\[85\%\] {
-    max-width: 85%;
-  }
-  .max-w-\[90\%\] {
-    max-width: 90%;
-  }
-  .max-w-\[100\%\] {
-    max-width: 100%;
   }
   .max-w-\[100\\\%\] {
     max-width: 100\%;
@@ -256,38 +220,14 @@
   .flex-col-reverse {
     flex-direction: column-reverse;
   }
-  .flex-row {
-    flex-direction: row;
-  }
-  .place-content-center {
-    place-content: center;
-  }
-  .content-center {
-    align-content: center;
-  }
   .items-center {
     align-items: center;
-  }
-  .justify-between {
-    justify-content: space-between;
   }
   .justify-center {
     justify-content: center;
   }
-  .justify-evenly {
-    justify-content: space-evenly;
-  }
-  .justify-items-center {
-    justify-items: center;
-  }
-  .justify-self-center {
-    justify-self: center;
-  }
   .bg-rose-100 {
     background-color: var(--color-rose-100);
-  }
-  .bg-rose-200 {
-    background-color: var(--color-rose-200);
   }
   .py-5 {
     padding-block: calc(var(--spacing) * 5);
@@ -301,88 +241,62 @@
   .pb-3 {
     padding-bottom: calc(var(--spacing) * 3);
   }
-  .pl-5 {
-    padding-left: calc(var(--spacing) * 5);
+  .font-\[\'Arial\'\] {
+    font-family: 'Arial';
   }
-  .align-middle {
-    vertical-align: middle;
-  }
-  .font-\[BlinkMacSystemFont\] {
-    font-family: BlinkMacSystemFont;
-  }
-  .font-\[Cambria\] {
-    font-family: Cambria;
-  }
-  .font-\[Consolas\] {
-    font-family: Consolas;
-  }
-  .font-\[Georga\] {
-    font-family: Georga;
-  }
-  .font-\[Georgas\] {
-    font-family: Georgas;
+  .font-\[\'Verdana\'\] {
+    font-family: 'Verdana';
   }
   .font-\[Georgia\] {
     font-family: Georgia;
   }
-  .font-\[Menlo\] {
-    font-family: Menlo;
-  }
-  .font-\[Monaco\] {
-    font-family: Monaco;
-  }
-  .font-\[Open_Sans\] {
-    font-family: Open Sans;
+  .font-\[Gill-Sans\] {
+    font-family: Gill-Sans;
   }
   .font-\[Roboto\] {
     font-family: Roboto;
   }
-  .font-\[SFMono-Regular\] {
-    font-family: SFMono-Regular;
+  .font-\[Times\] {
+    font-family: Times;
+  }
+  .font-\[Verdana\] {
+    font-family: Verdana;
+  }
+  .font-\[comic\] {
+    font-family: comic;
+  }
+  .font-\[fantasy\] {
+    font-family: fantasy;
+  }
+  .font-\[futura\] {
+    font-family: futura;
+  }
+  .font-\[georgia\] {
+    font-family: georgia;
+  }
+  .font-\[helvetica\] {
+    font-family: helvetica;
   }
   .font-\[monospace\] {
     font-family: monospace;
+  }
+  .font-\[times\] {
+    font-family: times;
+  }
+  .font-\[verdana\] {
+    font-family: verdana;
   }
   .text-3xl {
     font-size: var(--text-3xl);
     line-height: var(--tw-leading, var(--text-3xl--line-height));
   }
-  .text-4xl {
-    font-size: var(--text-4xl);
-    line-height: var(--tw-leading, var(--text-4xl--line-height));
-  }
   .text-5xl {
     font-size: var(--text-5xl);
     line-height: var(--tw-leading, var(--text-5xl--line-height));
   }
-  .text-6xl {
-    font-size: var(--text-6xl);
-    line-height: var(--tw-leading, var(--text-6xl--line-height));
-  }
-  .text-lg {
-    font-size: var(--text-lg);
-    line-height: var(--tw-leading, var(--text-lg--line-height));
-  }
-  .text-lg\/6 {
-    font-size: var(--text-lg);
-    line-height: calc(var(--spacing) * 6);
-  }
   .text-lg\/7 {
     font-size: var(--text-lg);
     line-height: calc(var(--spacing) * 7);
-  }
-  .text-lg\/8 {
-    font-size: var(--text-lg);
-    line-height: calc(var(--spacing) * 8);
-  }
-  .text-\[20px\] {
-    font-size: 20px;
-  }
-  .text-\[40px\] {
-    font-size: 40px;
-  }
-  .text-\[100px\] {
-    font-size: 100px;
   }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
@@ -391,43 +305,14 @@
   .text-text {
     color: var(--color-text);
   }
-  .shadow-xl\/20 {
-    --tw-shadow-alpha: 20%;
-    --tw-shadow: 0 20px 25px -5px var(--tw-shadow-color, oklab(from rgb(0 0 0 / 0.1) l a b / 20%)), 0 8px 10px -6px var(--tw-shadow-color, oklab(from rgb(0 0 0 / 0.1) l a b / 20%));
-    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
-  }
   .shadow-xl\/30 {
     --tw-shadow-alpha: 30%;
     --tw-shadow: 0 20px 25px -5px var(--tw-shadow-color, oklab(from rgb(0 0 0 / 0.1) l a b / 30%)), 0 8px 10px -6px var(--tw-shadow-color, oklab(from rgb(0 0 0 / 0.1) l a b / 30%));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
-  .shadow-xl {
-    --tw-shadow: 0 20px 25px -5px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 8px 10px -6px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
-    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
-  }
-  .shadow-red-500\/50 {
-    --tw-shadow-color: color-mix(in srgb, oklch(63.7% 0.237 25.331) 50%, transparent);
-    @supports (color: color-mix(in lab, red, red)) {
-      --tw-shadow-color: color-mix(in oklab, color-mix(in oklab, var(--color-red-500) 50%, transparent) var(--tw-shadow-alpha), transparent);
-    }
-  }
-  .shadow-rose-500\/50 {
-    --tw-shadow-color: color-mix(in srgb, oklch(64.5% 0.246 16.439) 50%, transparent);
-    @supports (color: color-mix(in lab, red, red)) {
-      --tw-shadow-color: color-mix(in oklab, color-mix(in oklab, var(--color-rose-500) 50%, transparent) var(--tw-shadow-alpha), transparent);
-    }
-  }
-  @media (width >= 40rem) {
-    .sm\:flex-col {
-      flex-direction: column;
-    }
-  }
   @media (width >= 48rem) {
     .md\:max-w-\[45\%\] {
       max-width: 45%;
-    }
-    .md\:flex-col {
-      flex-direction: column;
     }
     .md\:flex-row {
       flex-direction: row;

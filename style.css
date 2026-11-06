@@ -8,21 +8,13 @@
       "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
-    --color-red-500: oklch(63.7% 0.237 25.331);
     --color-rose-100: oklch(94.1% 0.03 12.58);
-    --color-rose-200: oklch(89.2% 0.058 10.001);
-    --color-rose-500: oklch(64.5% 0.246 16.439);
     --spacing: 0.25rem;
     --text-lg: 1.125rem;
-    --text-lg--line-height: calc(1.75 / 1.125);
     --text-3xl: 1.875rem;
     --text-3xl--line-height: calc(2.25 / 1.875);
-    --text-4xl: 2.25rem;
-    --text-4xl--line-height: calc(2.5 / 2.25);
     --text-5xl: 3rem;
     --text-5xl--line-height: 1;
-    --text-6xl: 3.75rem;
-    --text-6xl--line-height: 1;
     --font-weight-bold: 700;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
@@ -241,50 +233,8 @@
   .pb-3 {
     padding-bottom: calc(var(--spacing) * 3);
   }
-  .font-\[\'Arial\'\] {
-    font-family: 'Arial';
-  }
-  .font-\[\'Verdana\'\] {
-    font-family: 'Verdana';
-  }
-  .font-\[Georgia\] {
-    font-family: Georgia;
-  }
-  .font-\[Gill-Sans\] {
-    font-family: Gill-Sans;
-  }
-  .font-\[Roboto\] {
-    font-family: Roboto;
-  }
-  .font-\[Times\] {
-    font-family: Times;
-  }
-  .font-\[Verdana\] {
-    font-family: Verdana;
-  }
-  .font-\[comic\] {
-    font-family: comic;
-  }
-  .font-\[fantasy\] {
-    font-family: fantasy;
-  }
-  .font-\[futura\] {
-    font-family: futura;
-  }
-  .font-\[georgia\] {
-    font-family: georgia;
-  }
   .font-\[helvetica\] {
     font-family: helvetica;
-  }
-  .font-\[monospace\] {
-    font-family: monospace;
-  }
-  .font-\[times\] {
-    font-family: times;
-  }
-  .font-\[verdana\] {
-    font-family: verdana;
   }
   .text-3xl {
     font-size: var(--text-3xl);
